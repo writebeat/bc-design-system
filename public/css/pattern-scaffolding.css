@@ -1,0 +1,28 @@
+/**
+ * This stylesheet is for styles you want to include only when displaying demo
+ * styles for grids, animations, color swatches, etc.
+ * These styles will not be your production CSS.
+ */
+#sg-patterns {
+  -webkit-box-sizing: border-box !important;
+  box-sizing: border-box !important;
+  max-width: 100%;
+  padding: 0 0.5em; }
+
+.demo-animate {
+  background: #ddd;
+  padding: 1em;
+  margin-bottom: 1em;
+  text-align: center;
+  border-radius: 8px;
+  cursor: pointer; }
+
+#atoms-logo-reversed .sg-pattern-example {
+  background: #444444;
+  display: inline-block; }
+
+#molecules-logo-footer-link .sg-pattern-example {
+  background: #444444;
+  display: inline-block; }
+
+/*# sourceMappingURL=pattern-scaffolding.css.map */

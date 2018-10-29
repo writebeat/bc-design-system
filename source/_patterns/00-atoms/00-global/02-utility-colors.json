@@ -1,0 +1,52 @@
+{
+  "colors": [
+    {
+      "name": "Utility Positive",
+      "css-class": "bgColorUtilityPositive",
+      "css-variable": "$color-utility-positive",
+      "hex": "#03804d"
+    },
+    {
+      "name": "Utility Positive Subtle",
+      "css-class": "bgColorUtilityPositiveSubtle",
+      "css-variable": "$color-utility-positive-subtle",
+      "hex": "#d4f3e6"
+    },
+    {
+      "name": "Utility Caution",
+      "css-class": "bgColorUtilityCaution",
+      "css-variable": "$color-utility-caution",
+      "hex": "#a59b15"
+    },
+    {
+      "name": "Utility Caution Subtle",
+      "css-class": "bgColorUtilityCautionSubtle",
+      "css-variable": "$color-utility-caution-subtle",
+      "hex": "#fffecf"
+    },
+    {
+      "name": "Utility Negative",
+      "css-class": "bgColorUtilityNegative",
+      "css-variable": "$color-utility-negative",
+      "hex": "#b12a0b"
+    },
+    {
+      "name": "Utility Negative Subtle",
+      "css-class": "bgColorUtilityNegativeSubtle",
+      "css-variable": "$color-utility-negative-subtle",
+      "hex": "#fdded8"
+    },
+    {
+      "name": "Utility Neutral",
+      "css-class": "bgColorUtilityNeutral",
+      "css-variable": "$color-utility-neutral",
+      "hex": "#0192d0"
+    },
+    {
+      "name": "Utility Neutral Subtle",
+      "css-class": "bgColorUtilityNeutralSubtle",
+      "css-variable": "$color-utility-neutral-subtle",
+      "hex": "#d3f2ff"
+    }
+  ]
+}

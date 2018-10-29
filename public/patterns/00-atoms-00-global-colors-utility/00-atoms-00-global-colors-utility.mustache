@@ -1,0 +1,12 @@
+<ul class="sg-colors">
+	{{#colors}}
+		<li>
+			<span class="sg-title">{{name}}</span>
+			<span class="sg-swatch {{css-class}}"></span>
+			<span class="sg-label">
+				<strong>SASS Variable:</strong> {{css-variable}}<br />
+				<strong>HEX:</strong> {{hex}}
+			</span>
+		</li>
+	{{/colors}}
+</ul>

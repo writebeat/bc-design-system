@@ -1,0 +1,58 @@
+{
+  "colors": [
+    {
+      "name": "White",
+      "css-class": "bgColorWhite",
+      "css-variable": "$color-white",
+      "hex": "#FFF"
+    },
+    {
+      "name": "Gray 02",
+      "css-class": "bgColorGray02",
+      "css-variable": "$color-gray-02",
+      "hex": "#F7F9F9"
+    },
+    {
+      "name": "Gray 15",
+      "css-class": "bgColorGray15",
+      "css-variable": "$color-gray-15",
+      "hex": "#D9D9D9"
+    },
+    {
+      "name": "Gray 35",
+      "css-class": "bgColorGray35",
+      "css-variable": "$color-gray-35",
+      "hex": "#A5A5A5"
+    },
+    {
+      "name": "Gray 50",
+      "css-class": "bgColorGray50",
+      "css-variable": "$color-gray-50",
+      "hex": "#808080"
+    },
+    {
+      "name": "Gray 65",
+      "css-class": "bgColorGray65",
+      "css-variable": "$color-gray-65",
+      "hex": "#595959"
+    },
+    {
+      "name": "Gray 73",
+      "css-class": "bgColorGray73",
+      "css-variable": "$color-gray-73",
+      "hex": "#444444"
+    },
+    {
+      "name": "Gray 87",
+      "css-class": "bgColorGray87",
+      "css-variable": "$color-gray-87",
+      "hex": "#222222"
+    },
+    {
+      "name": "Black",
+      "css-class": "bgColorBlack",
+      "css-variable": "$color-black",
+      "hex": "#000"
+    }
+  ]
+}

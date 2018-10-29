@@ -1,0 +1,5 @@
+---
+title: Button
+---
+
+Button element to be used throughout the site.

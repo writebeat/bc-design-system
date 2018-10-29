@@ -1,0 +1,152 @@
+/*------------------------------------*\
+    #GLOBAL CLASSES
+\*------------------------------------*/
+
+/**
+ * Clearfix
+ */
+.cf {
+    *zoom: 1;
+}
+
+/**
+ * Clearfix pseudo-elements
+ */
+.cf:before, .cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * Completely remove from the flow and screen readers.
+ */
+.is-hidden {
+    display: none !important;
+    visibility: hidden !important;
+}
+
+/**
+ * Completely remove from the flow but leave available to screen readers.
+ */
+.is-vishidden {
+    position: absolute !important;
+    overflow: hidden;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    border: 0;
+    clip: rect(1px, 1px, 1px, 1px);
+}
+
+/**
+ * Text align right
+ */
+.align-right {
+	text-align: right;
+}
+
+/**
+ * Text align center
+ */
+.align-center {
+	text-align: center;
+}
+
+/**
+ * Text Align left
+ */
+.align-left {
+	text-align: left;
+}
+
+/**
+ * Hide on small screens
+ */
+.hide-small {
+    @media all and (max-width: $bp-med) {
+        display: none;
+    }
+}
+
+/**
+ * Hide on medium screens
+ */
+.hide-med {
+    @media all and (min-width: $bp-med) and (max-width: $bp-large) {
+        display: none;
+    }
+}
+
+/**
+ * Hide on large screens
+ */
+.hide-large {
+    @media all and (min-width: $bp-large) {
+        display: none;
+    }
+}
+
+/**
+ * Show valid text color
+ */
+.valid {
+	color: $color-utility-positive;
+}
+
+/**
+ * Show error text color
+ */
+.error {
+	color: $color-utility-negative;
+}
+
+/**
+ * Show warning text color
+ */
+.warning {
+    color: $color-utility-caution;
+}
+
+/**
+ * Show informational text color
+ */
+.information {
+    color: $color-utility-neutral;
+}
+
+/**
+ * Display secondary font family
+ */
+.font-secondary {
+    font-family: $font-secondary;
+}
+
+/**
+ * Backgrounds
+ */
+/* Brand Colors */
+.bgColorBC1     { background-color: $color-brand-1;   }
+.bgColorBC2     { background-color: $color-brand-2;   }
+/* Neutral Colors */
+.bgColorWhite   { background-color: $color-white;     }
+.bgColorGray02  { background-color: $color-gray-02;   }
+.bgColorGray15  { background-color: $color-gray-15;   }
+.bgColorGray35  { background-color: $color-gray-35;   }
+.bgColorGray50  { background-color: $color-gray-50;   }
+.bgColorGray65  { background-color: $color-gray-65;   }
+.bgColorGray73  { background-color: $color-gray-73;   }
+.bgColorGray87  { background-color: $color-gray-87;   }
+.bgColorBlack   { background-color: $color-black;     }
+/* Utility Colors */
+.bgColorUtilityPositive       { background-color: #03804d; }
+.bgColorUtilityPositiveSubtle { background-color: #d4f3e6; }
+.bgColorUtilityCaution        { background-color: #a59b15; }
+.bgColorUtilityCautionSubtle  { background-color: #fffecf; }
+.bgColorUtilityNegative       { background-color: #b12a0b; }
+.bgColorUtilityNegativeSubtle { background-color: #fdded8; }
+.bgColorUtilityNeutral        { background-color: #0192d0; }
+.bgColorUtilityNeutralSubtle  { background-color: #d3f2ff; }
