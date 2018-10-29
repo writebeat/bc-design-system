@@ -88,10 +88,17 @@ Once the repository has been downloaded, you can proceed to install the required
 
     cd [directory name]
 
-From there, run the following commands to install the required packages.
+From there, run the following command to install the required packages from NPM.
 
     npm install
+
+Once that is complete, we need to have Composer install its dependencies, using the following command:
+
     composer install
+
+If it asks if you would like to *merge or replace with the contents of `pattern-lab/styleguidekit-assets-default` package*, you can safely choose **replace** or **r**. All this will do is clear out the `public/styleguide` directory and replace it with the contents from the styleguide plugin being used. In this case, it's our own custom Broward College styleguide kit.
+
+When it asks if you would like to *update the config option styleguideKitPath*, say **yes**, or **Y**. This will simply point Pattern Lab to use the custom styleguide kit.
 
 
 
