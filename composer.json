@@ -27,6 +27,10 @@
     {
       "type": "vcs",
       "url": "https://github.com/writebeat/styleguidekit-assets-default"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/writebeat/styleguidekit-mustache-default"
     }
   ],
   "require": {
