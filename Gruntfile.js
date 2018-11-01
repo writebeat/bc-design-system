@@ -29,11 +29,11 @@ module.exports = function(grunt) {
       scripts: {
         files: [
           'source/js/*.js',
-          'source/js/third-party/*.js',
         ],
         tasks: ['concat', 'uglify'],
         options: {
           spawn: false,
+          livereload: true,
         },
       },
       css: {
@@ -45,8 +45,19 @@ module.exports = function(grunt) {
         tasks: ['sass'],
         options: {
           spawn: false,
+          livereload: true,
         },
       },
+      json: {
+        files: [
+          'source/js/json/*.*'
+        ],
+        tasks: ['copy'],
+        options: {
+          spawn: false,
+          livereload: true,
+        }
+      }
     },
     imagemin: {
       dynamic: {
@@ -81,6 +92,18 @@ module.exports = function(grunt) {
         },
       },
     },
+    copy: {
+      main: {
+        files: [
+          {
+            expand: true,
+            src: ['**'],
+            cwd: 'source/js/json',
+            dest: 'public/js/json/',
+          }
+        ]
+      }
+    }
   });
 
   // 3. Where we tell Grunt we plan to use this plug-in.
@@ -89,6 +112,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-contrib-imagemin');
   grunt.loadNpmTasks('grunt-contrib-sass');
+  grunt.loadNpmTasks('grunt-contrib-copy');
   grunt.loadNpmTasks('grunt-shell');
 
   // 4. Where we tell Grunt what to do when we type "grunt" into the terminal.

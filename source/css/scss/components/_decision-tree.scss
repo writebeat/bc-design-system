@@ -1,0 +1,14 @@
+.decisionTree--title {
+  text-align: center;
+  font-weight: bold;
+}
+.decisionTree--content {
+  text-align: center;
+}
+.decisionTree--choices {
+  text-align: center;
+  li {
+    padding: 1em;
+    cursor: pointer;
+  }
+}

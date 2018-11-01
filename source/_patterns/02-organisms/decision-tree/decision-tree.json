@@ -1,0 +1,372 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "text": "How would you like to spend your work day?",
+      "choices": [
+        {
+          "text": "CRUNCHING NUMBERS",
+          "nextQuestion": 2
+        },
+        {
+          "text": "COLLABORATING WITH PEOPLE",
+          "nextQuestion": 3
+        },
+        {
+          "text": "CREATING SOMETHING NEW",
+          "nextQuestion": 4
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "text": "How would you like to crunch numbers?",
+      "prevQuestion": 1,
+      "choices": [
+        {
+          "text": "Keeping financials efficient, accurate & balanced",
+          "nextQuestion": 5
+        },
+        {
+          "text": "Managing & growing investments",
+          "nextQuestion": 6
+        },
+        {
+          "text": "Transforming data into business gold",
+          "nextQuestion": 7
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "text": "How would you like to collaborate with people?",
+      "prevQuestion": 1,
+      "choices": [
+        {
+          "text": "Leading teams to succeed",
+          "nextQuestion": 16
+        },
+        {
+          "text": "Satisfying customer needs & desires",
+          "nextQuestion": 20
+        },
+        {
+          "text": "Helping people during good times or bad",
+          "nextQuestion": 24
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "text": "How would you like to create?",
+      "prevQuestion": 1,
+      "choices": [
+        {
+          "text": "Inventing a product, service or better way",
+          "nextQuestion": 32
+        },
+        {
+          "text": "Expanding to new countries & cultures",
+          "nextQuestion": 36
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "text": "Explore Accounting",
+      "prevQuestion": 2,
+      "final": true
+    },
+    {
+      "id": 6,
+      "text": "Explore Finance",
+      "prevQuestion": 2,
+      "final": true
+    },
+    {
+      "id": 7,
+      "text": "Are you more interested in Analytics or Risk Management?",
+      "prevQuestion": 2,
+      "choices": [
+        {
+          "text": "Analytics",
+          "nextQuestion": 8
+        },
+        {
+          "text": "Risk Management",
+          "nextQuestion": 9
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "text": "Explore Risk Management",
+      "prevQuestion": 7,
+      "final": true
+    },
+    {
+      "id": 9,
+      "text": "How much time can you invest in your education?",
+      "prevQuestion": 7,
+      "choices": [
+        {
+          "text": "I have to finish in 1 year or less",
+          "nextQuestion": 10
+        },
+        {
+          "text": "I can complete a 2 year degree",
+          "nextQuestion": 11
+        },
+        {
+          "text": "My goal is a bachelor's degree or higher",
+          "nextQuestion": 12
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "text": "Recommendations:",
+      "prevQuestion": 9,
+      "choices": [
+        {
+          "text": "Office Specialist, Insurance Industry",
+          "nextQuestion": 13
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "text": "Recommendations:",
+      "prevQuestion": 9,
+      "choices": [
+        {
+          "text": "Insurance Underwriter",
+          "nextQuestion": 14
+        },
+        {
+          "text": "Office Manager, Insurance Industry",
+          "nextQuestion": 15
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "text": "Recommendations: Actuary/Analyst or Loss Control/Risk Analyst",
+      "prevQuestion": 9,
+      "final": true
+    },
+    {
+      "id": 13,
+      "text": "[Information about Office Specialist here]",
+      "prevQuestion": 10,
+      "final": true
+    },
+    {
+      "id": 14,
+      "text": "[Information about Insurance Underwriter here]",
+      "prevQuestion": 11,
+      "final": true
+    },
+    {
+      "id": 15,
+      "text": "[Information about Office Manager here]",
+      "prevQuestion": 11,
+      "final": true
+    },
+    {
+      "id": 16,
+      "text": "Look into these fields:",
+      "prevQuestion": 3,
+      "choices": [
+        {
+          "text": "Explore Management",
+          "nextQuestion": 17
+        },
+        {
+          "text": "Explore HR",
+          "nextQuestion": 18
+        },
+        {
+          "text": "Explore International Business",
+          "nextQuestion": 19
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "text": "[Explore Management Info]",
+      "prevQuestion": 16,
+      "final": true
+    },
+    {
+      "id": 18,
+      "text": "[Explore HR Info]",
+      "prevQuestion": 16,
+      "final": true
+    },
+    {
+      "id": 19,
+      "text": "[Explore International Business Info]",
+      "prevQuestion": 16,
+      "final": true
+    },
+    {
+      "id": 20,
+      "text": "Look into these fields:",
+      "prevQuestion": 3,
+      "choices": [
+        {
+          "text": "Explore Sales",
+          "nextQuestion": 21
+        },
+        {
+          "text": "Explore Real Estate",
+          "nextQuestion": 22
+        },
+        {
+          "text": "Explore Marketing",
+          "nextQuestion": 23
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "text": "[Explore Sales Info]",
+      "prevQuestion": 20,
+      "final": true
+    },
+    {
+      "id": 22,
+      "text": "[Explore Real Estate Info]",
+      "prevQuestion": 20,
+      "final": true
+    },
+    {
+      "id": 23,
+      "text": "[Explore Marketing Info]",
+      "prevQuestion": 20,
+      "final": true
+    },
+    {
+      "id": 24,
+      "text": "How would you like to help people?",
+      "prevQuestion": 3,
+      "choices": [
+        {
+          "text": "Delighting travelers & guests",
+          "nextQuestion": 25
+        },
+        {
+          "text": "Protecting lives & property",
+          "nextQuestion": 26
+        },
+        {
+          "text": "Advocating for patients & families",
+          "nextQuestion": 27
+        },
+        {
+          "text": "Protecting & defending legal rights",
+          "nextQuestion": 28
+        },
+        {
+          "text": "Teaching, guiding, motivating others",
+          "nextQuestion": 29
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "text": "Explore Hospitality Administration",
+      "prevQuestion": 24,
+      "final": true
+    },
+    {
+      "id": 26,
+      "text": "Explore Risk Management",
+      "prevQuestion": 24,
+      "final": true
+    },
+    {
+      "id": 27,
+      "text": "Explore Health Services Administration",
+      "prevQuestion": 24,
+      "final": true
+    },
+    {
+      "id": 28,
+      "text": "Explore Paralegal Studies",
+      "prevQuestion": 24,
+      "final": true
+    },
+    {
+      "id": 29,
+      "text": "Look into these fields:",
+      "prevQuestion": 24,
+      "choices": [
+        {
+          "text": "Explore HR",
+          "nextQuestion": 30
+        },
+        {
+          "text": "Explore Management",
+          "nextQuestion": 31
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "text": "[Explore HR Info]",
+      "prevQuestion": 29,
+      "final": true
+    },
+    {
+      "id": 31,
+      "text": "[Explore Management Info]",
+      "prevQuestion": 29,
+      "final": true
+    },
+    {
+      "id": 32,
+      "text": "Look into these fields:",
+      "prevQuestion": 4,
+      "choices": [
+        {
+          "text": "Explore Entrepreneurship",
+          "nextQuestion": 33
+        },
+        {
+          "text": "Explore Marketing",
+          "nextQuestion": 34
+        },
+        {
+          "text": "Explore Business Administration",
+          "nextQuestion": 35
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "text": "[Explore Entrepreneurship Info]",
+      "prevQuestion": 32,
+      "final": true
+    },
+    {
+      "id": 34,
+      "text": "[Explore Marketing Info]",
+      "prevQuestion": 32,
+      "final": true
+    },
+    {
+      "id": 35,
+      "text": "[Explore Business Administration Info]",
+      "prevQuestion": 32,
+      "final": true
+    },
+    {
+      "id": 36,
+      "text": "Explore International Business",
+      "prevQuestion": 4,
+      "final": true
+    }
+  ]
+}

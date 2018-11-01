@@ -1,0 +1,161 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="decisionTree2.xsl"?>
+<DecisionTree>
+  <question>
+      <text>How would you like to spend your workday? </text>
+      <answer>
+            <answerText>CRUNCHING NUMBERS</answerText>
+            <questionSub>
+              <text>How would you like to spend your workday?</text>
+              <answerSub>
+                  <text>Keeping financials efficient, accurate and balanced</text>
+                  <answerSubQuestion>
+                    <text>May we recommend that you...</text>
+                    <answerSubQuestionAnswer>
+                      <text>Explore Accounting</text>
+                    </answerSubQuestionAnswer>
+                </answerSubQuestion>
+              </answerSub>
+              <answerSub>
+                  <text>Managing and growing investments</text>
+                  <answerSubQuestion>
+                    <text>May we recommend that you...</text>
+                    <answerSubQuestionAnswer>
+                          <text>Explore Finance</text>
+                    </answerSubQuestionAnswer>
+                </answerSubQuestion>
+              </answerSub>
+              <answerSub>
+                  <text>Transforming data into business gold</text>
+                  <answerSubQuestion>
+                    <text>May we recommend that you...</text>
+                    <answerSubQuestionAnswer>
+                          <text>Explore Business Analytics</text>
+                    </answerSubQuestionAnswer>
+                    <answerSubQuestionAnswer>
+                          <text>Explore Risk Management</text>
+                    </answerSubQuestionAnswer>
+                </answerSubQuestion>
+              </answerSub>
+          </questionSub>
+      </answer>
+      <answer>
+          <answerText>COLLABORATING WITH PEOPLE</answerText>
+          <questionSub>
+            <text>How would you like to spend your workday?</text>
+            <answerSub>
+                  <text>Leading teams to succeed</text>
+                  <answerSubQuestion>
+                    <text>How would you like to spend your workday?</text>
+                    <answerSubQuestionAnswer>
+                          <text>Explore Management</text>
+                    </answerSubQuestionAnswer>
+                    <answerSubQuestionAnswer>
+                          <text>Explore HR</text>
+                    </answerSubQuestionAnswer>
+                    <answerSubQuestionAnswer>
+                          <text>Explore International Business</text>
+                    </answerSubQuestionAnswer>
+                </answerSubQuestion>
+            </answerSub>
+            <answerSub>
+                <text>Satisfying customer needs and desires</text>
+                <answerSubQuestion>
+                  <text>How would you like to spend your workday?</text>
+                  <answerSubQuestionAnswer>
+                        <text>Explore Sales</text>
+                  </answerSubQuestionAnswer>
+                  <answerSubQuestionAnswer>
+                        <text>Explore Real Estate</text>
+                  </answerSubQuestionAnswer>
+                  <answerSubQuestionAnswer>
+                        <text>Explore Marketing</text>
+                  </answerSubQuestionAnswer>
+              </answerSubQuestion>
+            </answerSub>
+            <answerSub>
+              <text>Helping people during good times or bad</text>
+                <answerSubQuestion>
+                  <text>How would you like to spend your workday?</text>
+                  <answerSubQuestionAnswer>
+                        <text>Delighting travelers and guests</text>
+                        <answerSubQuestionAnswerQuestion>
+                          <text>Msy we recommend that you...</text>
+                          <answerLevel3>
+                                <text>Explore Hospitality Administration</text>
+                          </answerLevel3>
+                      </answerSubQuestionAnswerQuestion>
+                  </answerSubQuestionAnswer>
+                  <answerSubQuestionAnswer>
+                        <text>Protecting lives and property</text>
+                        <answerSubQuestionAnswerQuestion>
+                          <text>Msy we recommend that you...</text>
+                          <answerLevel3>
+                                <text>Explore Risk Management</text>
+                          </answerLevel3>
+                      </answerSubQuestionAnswerQuestion>
+                  </answerSubQuestionAnswer>
+                  <answerSubQuestionAnswer>
+                        <text>Advocating for patients and families</text>
+                        <answerSubQuestionAnswerQuestion>
+                          <text>Msy we recommend that you...</text>
+                          <answerLevel3>
+                                <text>Explore Health Services Administration</text>
+                          </answerLevel3>
+                      </answerSubQuestionAnswerQuestion>
+                  </answerSubQuestionAnswer>
+                  <answerSubQuestionAnswer>
+                        <text>Protecting and defending legal rights</text>
+                        <answerSubQuestionAnswerQuestion>
+                          <text>May we recommend that you...</text>
+                          <answerLevel3>
+                                <text>Explore Paralegal Studies</text>
+                          </answerLevel3>
+                      </answerSubQuestionAnswerQuestion>
+                  </answerSubQuestionAnswer>
+                  <answerSubQuestionAnswer>
+                        <text>Teaching, guiding, motivating others</text>
+                        <answerSubQuestionAnswerQuestion>
+                          <text>May we recommend that you...</text>
+                          <answerLevel3>
+                                <text>Explore HR</text>
+                                <text>Explore Management</text>
+                          </answerLevel3>
+                      </answerSubQuestionAnswerQuestion>
+                  </answerSubQuestionAnswer>
+              </answerSubQuestion>
+            </answerSub>
+        </questionSub>
+      </answer>
+      <answer>
+        <answerText>CREATING SOMETHING NEW</answerText>
+          <questionSub>
+            <text>How would you like to spend your workday?</text>
+            <answerSub>
+                  <text>Inventing a product, service or better way</text>
+                  <answerSubQuestion>
+                    <text>May we recommend that you...</text>
+                    <answerSubQuestionAnswer>
+                          <text>Explore Entrepreneurship</text>
+                    </answerSubQuestionAnswer>
+                    <answerSubQuestionAnswer>
+                          <text>Explore Marketing</text>
+                    </answerSubQuestionAnswer>
+                    <answerSubQuestionAnswer>
+                          <text>Explore Business Administration</text>
+                    </answerSubQuestionAnswer>
+                </answerSubQuestion>
+            </answerSub>
+            <answerSub>
+                  <text>Expanding to new countries and cultures</text>
+                  <answerSubQuestion>
+                    <text>May we recommend that you...</text>
+                    <answer>
+                          <text>Explore International Business</text>
+                    </answer>
+                </answerSubQuestion>
+            </answerSub>
+        </questionSub>
+      </answer>
+  </question>
+</DecisionTree>
