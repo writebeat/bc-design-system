@@ -57,7 +57,17 @@ module.exports = function(grunt) {
           spawn: false,
           livereload: true,
         }
-      }
+      },
+      mustache: {
+        files: [
+          'source/_patterns/**/*.mustache'
+        ],
+        tasks: ['copy'],
+        options: {
+          spawn: false,
+          livereload: true,
+        }
+      },
     },
     imagemin: {
       dynamic: {
@@ -100,6 +110,13 @@ module.exports = function(grunt) {
             src: ['**'],
             cwd: 'source/js/json',
             dest: 'public/js/json/',
+          },
+          {
+            expand: true,
+            src: ['**/*.mustache'],
+            cwd: 'source/_patterns',
+            dest: 'public/js/mustache/',
+            flatten: true,
           }
         ]
       }
@@ -116,7 +133,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-shell');
 
   // 4. Where we tell Grunt what to do when we type "grunt" into the terminal.
-  grunt.registerTask('default', ['concat', 'uglify', 'sass', 'imagemin', 'shell:patternlab', 'watch']);
+  grunt.registerTask('default', ['concat', 'uglify', 'sass', 'imagemin', 'copy', 'shell:patternlab', 'watch']);
   grunt.registerTask('server', 'shell:server');
 
 };
