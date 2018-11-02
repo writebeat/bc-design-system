@@ -29,32 +29,12 @@
 		background: $color-gray-15;
 		color: $color-gray-50;
 	}
+
+	&--neutral {
+		border: 3px solid red;
+	}
 }
 
-/**
- * Small button
- */
-.c-btn-small {
-	padding: $pad-half;
-}
-
-/**
- * Large button
- */
-.c-btn-large {
-	padding: $pad-half;
-	text-transform: uppercase;
-	background: $color-gray-50;
-	font-size: 1.4rem;
-	font-weight: normal;
-}
-
-/**
- * Blue Button
- */
-.c-btn--blue {
-	background: $color-brand-blue;
-}
 
 /**
  * Text button

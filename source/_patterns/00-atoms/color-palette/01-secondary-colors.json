@@ -1,0 +1,16 @@
+{
+  "colors": [
+    {
+      "name": "Secondary Color 1",
+      "css-class": "bgColorBC1",
+      "css-variable": "$color-brand-1",
+      "hex": "#002E52"
+    },
+    {
+      "name": "Secondary Color 2",
+      "css-class": "bgColorBC2",
+      "css-variable": "$color-brand-2",
+      "hex": "#006EB8"
+    }
+  ]
+}
